@@ -4,6 +4,8 @@
 - 🧠 Current endeavors: Sharpening up my python and database skills with University coursework. On my own time I'm learning Solidity to code web3 smart contracts. I love all things web3!
 - 📫 Please reach out to me, I'd love to talk! gentblaku@gmail.com 
 
+
+- Also, check out this website! lynx.ooo
 <!---
 gBlaku/gBlaku is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
