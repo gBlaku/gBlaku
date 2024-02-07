@@ -1,4 +1,4 @@
-Software Developer @ Booz Allen Hamilton | Passionate builder | AI Enthusiast | New grad | Currently leveraging AI to build SaaS applications in my spare time
+Software Developer | Passionate builder | AI Enthusiast | New grad | Currently leveraging AI to build SaaS applications (when not at work)
 
 
 
