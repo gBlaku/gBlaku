@@ -1,4 +1,4 @@
-Software Developer | Passionate Builder | AI Enthusiast | New Grad | Currently leveraging AI to build SaaS applications after work!
+Software Developer | Passionate Builder | AI Enthusiast | New Grad | Currently leveraging AI to build SaaS applications after work
 
 
 
