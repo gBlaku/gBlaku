@@ -1,5 +1,6 @@
-Software Developer | Passionate Builder | AI Enthusiast | New Grad | Currently leveraging AI to build SaaS applications after work
+Software Developer | Passionate Builder | AI Enthusiast | 1 year post-undergrad | Currently leveraging AI to build SaaS applications after work
 
+Current project: Building an AI-enabled iOS app to take unique, tailored practice tests!
 
 
 <!---
