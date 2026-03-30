@@ -1,6 +1,4 @@
-Software Developer | Passionate Builder | AI Enthusiast | Currently leveraging AI to build SaaS applications after work
-
-Current project: Building an AI-enabled iOS app to take unique, tailored practice tests!
+Senior SWE | Building with Claude Code 24/7
 
 
 <!---
