@@ -2,8 +2,8 @@
 
 Software Engineer in NYC.
 
-Led a federal agency's migration off Sybase stored procedures to PostgreSQL and service APIs,
-building the conversion tooling every engineering team there now uses. Automated production
+Leading federal agency migrations off Sybase stored procedures to PostgreSQL and service APIs,
+building the conversion tooling every engineering team now uses. Automated production
 support with MCP orchestration across the database, ServiceNow and Jira, so routine tickets
 resolve without a developer touching them.
 
