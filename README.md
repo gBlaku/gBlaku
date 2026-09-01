@@ -33,6 +33,19 @@ launched the token appears nowhere. Indexing the transaction sender instead rest
 reverse engineering the endpoint's rate limiter, a per-IP bucket priced by method cost where
 parallel connections make throughput worse.
 
+## Robinhood Chain Token Index
+
+Block explorers name the wrong creator for every launchpad-deployed token on every EVM
+chain. They report the factory contract instead of the wallet that actually launched it,
+which on Robinhood Chain means a single address gets credited with 60,112 tokens.
+
+This decodes factory deployments to recover the real deployer, then uses that to index the
+chain from genesis.
+
+[Robinhood-Chain-Index](https://github.com/gBlaku/Robinhood-Chain-Index). Method, test
+suite, and the full dataset are in the repo, along with a writeup of where attribution
+stops being recoverable and why.
+
 ## EDGAR AI Pivot Monitor
 
 Real-time classification over SEC EDGAR. Polls for new 8-K filings, scores them against a
