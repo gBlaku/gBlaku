@@ -27,7 +27,11 @@ measuring my own instrument, and a calibration result that was really a result a
 Block explorers name the wrong creator for every launchpad token on every EVM chain. The
 launchpad calls `CREATE2`, so it gets recorded as the deployer and the person who actually
 launched the token appears nowhere. Indexing the transaction sender instead restores the lookup:
-**125,961 tokens attributed** across a chain scanned from genesis.
+**every token on the chain, 635,501 of them**, attributed from genesis.
+
+Except under ERC-4337, where the sender is a bundler submitting other people's operations. That
+is the same defect one layer up, and my own index shipped with it — **41,621 tokens** across 137
+bundlers, now resolved to the accounts behind them.
 
 [Robinhood-Chain-Index](https://github.com/gBlaku/Robinhood-Chain-Index). The README covers
 reverse engineering the endpoint's rate limiter, a per-IP bucket priced by method cost where
