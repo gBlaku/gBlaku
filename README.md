@@ -24,18 +24,21 @@ measuring my own instrument, and a calibration result that was really a result a
 
 ## Robinhood Chain Index
 
-Block explorers name the wrong creator for every launchpad token on every EVM chain. The
-launchpad calls `CREATE2`, so it gets recorded as the deployer and the person who actually
-launched the token appears nowhere. Indexing the transaction sender instead restores the lookup:
-**every token on the chain, 635,501 of them**, attributed from genesis.
+Token attribution across Robinhood Chain, scanned from block 0. As of September 2026:
+**635,501 tokens mapped to the 172,067 wallets that actually launched them**, with name, symbol
+and supply on the 125,972 inside the metadata range.
 
-Except under ERC-4337, where the sender is a bundler submitting other people's operations. That
-is the same defect one layer up, and my own index shipped with it — **41,621 tokens** across 137
-bundlers, now resolved to the accounts behind them.
+[Robinhood-Chain-Index](https://github.com/gBlaku/Robinhood-Chain-Index) ·
+[report](https://github.com/gBlaku/Robinhood-Chain-Index/blob/main/docs/REPORT.md) ·
+[dataset](https://github.com/gBlaku/Robinhood-Chain-Index/blob/main/data/launchers_full.csv.gz)
 
-[Robinhood-Chain-Index](https://github.com/gBlaku/Robinhood-Chain-Index). The README covers
-reverse engineering the endpoint's rate limiter, a per-IP bucket priced by method cost where
-parallel connections make throughput worse.
+Block explorers name the launchpad as a token's creator, because launchpads deploy through
+`CREATE2`, so the person who launched it appears nowhere. Indexing the transaction sender
+restores the lookup. ERC-4337 breaks the same assumption one layer up, where the sender is a
+bundler submitting other people's operations, and my own index shipped with that defect until I
+found it: 41,621 tokens across 137 bundlers, re-attributed. The README also covers reverse
+engineering the endpoint's rate limiter, a per-IP bucket priced by method cost where parallel
+connections make throughput worse.
 
 ## EDGAR AI Pivot Monitor
 
