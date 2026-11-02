@@ -7,6 +7,14 @@ building the conversion tooling every engineering team now uses. Automated produ
 support with MCP orchestration across the database, ServiceNow and Jira, so routine tickets
 resolve without a developer touching them.
 
+## GigAI
+
+One question, four AIs. Ask once and ChatGPT, Claude, Gemini and Grok answer side by side, then
+GigAI shows where they agree, where they split, and a TL;DR. Built solo, live as a free beta since
+November 2026.
+
+[askgigai.com](https://askgigai.com)
+
 ## Polywhales
 
 Market intelligence over Polymarket, polling every tradeable market since October 2025. As of
@@ -22,6 +30,7 @@ The writeups cover API failure modes that return valid-looking responses, and st
 coverage has holes. Two findings were retracted while writing them: a churn figure that was
 measuring my own instrument, and a calibration result that was really a result about football.
 
+<!--
 ## Robinhood Chain Index
 
 Token attribution across Robinhood Chain, scanned from block 0. As of September 2026:
@@ -39,6 +48,7 @@ bundler submitting other people's operations, and my own index shipped with that
 found it: 41,621 tokens across 137 bundlers, re-attributed. The README also covers reverse
 engineering the endpoint's rate limiter, a per-IP bucket priced by method cost where parallel
 connections make throughput worse.
+-->
 
 ## EDGAR AI Pivot Monitor
 
