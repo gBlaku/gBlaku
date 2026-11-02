@@ -43,8 +43,7 @@ connections make throughput worse.
 ## EDGAR AI Pivot Monitor
 
 Real-time classification over SEC EDGAR. Polls for new 8-K filings, scores them against a
-weighted keyword taxonomy, sends survivors to an LLM, and dispatches whatever clears a
-confidence threshold.
+weighted keyword taxonomy to snipe companies making 'AI Pivots'.
 
 [edgar-ai-pivot-monitor](https://github.com/gBlaku/edgar-ai-pivot-monitor). Archived, public as
 a work sample.
